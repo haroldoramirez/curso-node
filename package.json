@@ -4,11 +4,15 @@
   "description": "curso node com express",
   "main": "index.js",
   "scripts": {
+    "dev": "npx nodemon app.js",
     "start": "node teste.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
